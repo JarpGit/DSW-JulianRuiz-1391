@@ -5,8 +5,33 @@
     <title>Mi Sitio Web</title>
     <link rel="stylesheet" href="estilos.css">
     <style>
+      body{
+        font-family: 'Poppins', sans-serif;
+      }
+      p{
+        font-size: 20px;
+      }
       header {
-        margin-top: 30px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+      }
+      #inicio{
+        padding-top: 2%;
+        padding-bottom: 2%;
+      }
+      #tema-seleccionado{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgb(135, 169, 250);
+      }
+      #mockup{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: bisque;
+      }
+      #acerca-de{
+        padding-top: 2%;
+        padding-bottom: 2%;
       }
      nav {
         position: fixed;        
@@ -48,7 +73,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 75px; /* Ajusta la altura según tus necesidades */
+        height: auto; /* Ajusta la altura según tus necesidades */
         background-color: #333;
         color: #fff;
         text-align: center;
@@ -62,6 +87,7 @@
         height: 300px;
         width: 50%;
         margin-left: 25%;
+        font-weight: bolder;
       }
 
       .item {
@@ -73,16 +99,19 @@
       }
 
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Mi Sitio Web</h1>
+      <h1>Fase 2: Componente práctico</h1>
     </header>
     
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#tema-seleccionado">Tema Seleccionado</a></li>
+        <li><a href="#tema-seleccionado">CSS Grid</a></li>
         <li><a href="#mockup">Mockup</a></li>
         <li><a href="#acerca-de">Acerca de</a></li>
       </ul>
@@ -90,8 +119,11 @@
     
     <main>
       <section id="inicio">
-        <h2>Bienvenidos a Mi Sitio Web</h2>
-        <p>Este es el contenido de la sección de inicio.</p>
+        <h2>Bienvenidos al desarrollo de la fase 2</h2>
+        <p>
+          En este espacio se presentarán las evidencias de las actividades correspondientes al desarrollo de la página web en estilo
+          One Page, la consulta del tema CSS Grid y una breve aplicación del tema, la inclusión del mockup y el uso de las etiquetas semánticas en la creación del sitio.
+          .</p>
       </section>
       
       <section id="tema-seleccionado">
@@ -137,6 +169,8 @@
           <p>
             Es una forma abreviada de definir la estructura de la cuadrícula utilizando una sola propiedad: grid-template. Con esta propiedad se pueden definir
           </p>
+
+          <img src="CSS Grid.jpg" alt="Explicación gráfica CSS Grid">
         </p>
         <h3>Ejemplo de uso</h3>
         <div class="grid-container">
@@ -160,13 +194,22 @@
       
       <section id="acerca-de">
         <h2>Acerca de</h2>
-        <p>Este es el contenido de la sección de acerca de.</p>
+        <p>
+          Julián Alberto Ruiz Piedrahíta
+          <br>
+          Escuela de Ciencias Básicas, Tecnología e Ingeniería, Universidad Nacional Abierta y a Distancia UNAD
+          <br>
+          301122: Diseño de Sitios Web
+          <br>
+          Prof. Josué Ignacio Ochoa Torres
+
+        </p>
       </section>
     </main>
     
     <footer>
-      <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
-      <p>Última actualización: 19 de febrero de 2023</p>
+      <p>&copy; 2023 Fase 2. Todos los derechos reservados.</p>
+      <p>Última actualización: 3 de marzo de 2023</p>
     </footer>
     
   </body>
